@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body class="bg-dark">
+    <section id="landing-page" class="section__container"> 
+        <div class="center-container">
+            <h1>TOY's portfolio</h1>
+            <h4>Modeler/Builder</h4>
+        </div>
+        <a href="#portfolio" class="bottom"><img class="down-arrow" src="assets/down-button.png"/></a>
+    </section>
+
+    <section id="portfolio" class="section__container bg-dark">
+      <div class="btn-group container-fluid " role="group" aria-label="Basic example">
+        <button onclick="changeSet('buildings')" type="button" class="btn btn-primary bg-light text-bg-light border-0">Modeling</button>
+        <button onclick="changeSet('weapons')" type="button" class="btn btn-primary bg-light text-bg-light border-0">Building</button>
+        <button onclick="changeSet('acessories')" type="button" class="btn btn-primary bg-light text-bg-light border-0">Enviroment</button>
+      </div>
+            <div class="margin-top">
+              <div id="carousel__buildings" class="carousel slide container-sm focus">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carousel__buildings" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                </div>
+                <div class="carousel-inner container-sm">
+                  <div class="carousel-item active">
+                    <img src="assets/image-set__1/slide__1.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__2.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__3.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__4.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__5.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__6.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__1/slide__7.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel__buildings" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel__buildings" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+              <div id="carousel__weapons" class="carousel slide container-sm visually-hidden">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel__weapons" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel__weapons" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel__weapons" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel__weapons" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carousel__weapons" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner container-sm">
+                  <div class="carousel-item active">
+                    <img src="assets/image-set__2/slide__1.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__2/slide__2.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__2/slide__3.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__2/slide__4.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__2/slide__5.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel__weapons" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel__weapons" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+              <div id="carousel__acessories" class="carousel slide container-sm visually-hidden">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel__acessories" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel__acessories" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel__acessories" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner container-sm">
+                  <div class="carousel-item active">
+                    <img src="assets/image-set__3/slide__1.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__3/slide__2.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/image-set__3/slide__3.png" class="d-block w-100 portfolio-item" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel__acessories" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel__acessories" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section><a href="#footer" class="portfolio-arrow"><img class="down-arrow" src="assets/down-button.png"/></a>
+
+  <section id="footer" class="section__container footerClass text-bg-dark">
+    <div id="footer-info" class="center-container">
+      <article class="info-block">
+        <h1>Contact</h1>
+        <p>Feel free to contact me to work.</p>
+        <div id="socials">
+          <a href="https://www.roblox.com/users/107527685/profile"><img class="social-icon" src="assets/icons/roblox-icon.png" _BLANK> @ToyBonnieUchiha (TOY)</a>
+          <a href=""><img class="social-icon" src="assets/icons/discord-icon.png"> @T O Y#2246</a>
+          <!-- <a><img class="social-icon" src="assets/icons/"></a> -->
+        </div>
+      </article>
+      <article class="info-block">
+        <h1>Work</h1>
+        <p class="text-">I do short-term to mid-term comissions for 3d models, map, enviroment, character, weapons <em>References are welcomed.</em></p>
+      </article>
+      <article class="info-block">
+        <h1>Pricing</h1>
+        <p>Payments Robux / Dollar</p>
+      </article>
+      <a href="#landing-page" class="home-arrow"><img class="down-arrow" src="assets/down-button.png"/></a>
+
+    </div>
+    <!-- <p> <small>&copy; Copyright 2018, Example Corporation</small> </p> -->
+  </section>    <!-- <footer class="center-container"><a href="https://icons8.com/">icons8</a></footer> -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
